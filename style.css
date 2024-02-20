@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 0.5rem;
+    width: 100%;
+    background-color: black;
+    color: whitesmoke;
+}
+
+form {padding-left: 0.8rem;
+    width: 50%;
+}
+
+legend { font-weight: 900;
+    color: blue;
+}
+
+div {
+    padding: 0.6rem;
+
+}
+
+label {
+    display: block;
+    font-weight: 600;
+ 
+}
+
+input {
+  
+    border-style: 0.1px solid lightgray;
+    border-radius: 6px;
+}
+
+.dünn {
+    display: inline;
+    font-weight: 400;
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+button {background-color: green;
+    color: whitesmoke;
+    font-weight: bold;
+    font-size: large;
+    border-radius: 6px;
+    border: none;
+    width: 20rem;
+    height: 3rem;
+    margin: 1rem;
+    padding: 0.3rem;
+}

@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formular Übung 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h3>Forms</h3>
+    </header>
+
+    <main>
+        <form action="https://upset-seal-belt.cyclic.app/" target="blank">
+            </br>
+            <section>
+                <fieldset>
+                    <legend>
+                        <h2>Persöhnliche Daten</h2>
+                    </legend>
+
+                    <div>
+                        <label for="vorname">Vorname:</label>
+                        <input type="text" name="vorname" id="vorname">
+
+                    </div>
+                    <div>
+                        <label for="nachname">Nachname:</label>
+                        <input type="text" name="nachname" id="nachname">
+
+                    </div>
+                    <div>
+                        <label for="strasse">Strasse:</label>
+                        <input type="text" name="strasse" id="strasse">
+                    </div>
+                    <div>
+                        <label for="plz">PLZ:</label>
+                        <input type="number" name="plz" id="plz">
+                    </div>
+                    <div>
+                        <label for="stadt">Stadt:</label>
+                        <input type="text" name="stadt" id="stadt">
+                    </div>
+                    <div>
+                        <label for="telefonnummer">Telefonnummer:</label>
+                        <input type="number" name="telefonnummer" id="telefonnummer">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="kommentare">Kommentare:</label>
+                        <textarea name="nachricht" id="nachricht" rows="5" minlength="5" maxlength="50"
+                            placeholder="Erzähl uns mehr über wichtige Farben, etc. "></textarea>
+                    </div>
+                </fieldset>
+            </section>
+            <section>
+                </br>
+                </br>
+
+                <fieldset>
+                    <legend>
+                        <h2>Produkte</h2>
+                    </legend>
+
+
+                    <div>
+                        <label for="web-design">Web Design</label>
+                    </div>
+                    <div>
+
+                        <input type="radio" name="individual" id="individual" value="individual">
+                        <label class="dünn" for="individual">Individual</label>
+
+
+                        <input type="radio" name="template" id="template" value="template">
+                        <label class="dünn" for="template">Template</label>
+                    </div>
+
+                    <div>
+                        <label for="web-development">Web Development</label>
+                    </div>
+
+                    <div>
+
+                        <input type="checkbox" name="htmlundcss" id="htmlundcss">
+                        <label class="dünn" for="htmlundcss">HTML & CSS</label>
+                    </div>
+
+                    <div>
+
+                        <input type="checkbox" name="javascript" id="javascript">
+                        <label class="dünn" for="javascript">JavaScript</label>
+
+                    </div>
+                    <div>
+
+                        <input type="checkbox" name="mongodb" id="mongodb">
+                        <label class="dünn" for="mongodb">MongoDB</label>
+
+                    </div>
+
+                    <div>
+                        <label for="projektstart">Projekt Start</label>
+                        <input type="datetime-local" name="projektstart" id="projektstart">
+
+                    </div>
+
+                    <div>
+                        <label for="projektende">Projekt Ende</label>
+                        <input type="datetime-local" name="projektende" id="projektende">
+                    </div>
+
+
+                    <div>
+                        <label for="kategorie">Kategorie:</label>
+                        <select name="kategorie" id="kategorie">
+                            <option value="personal">Personal</option>
+                            <option value="digital">Digital</option>
+                            <option value="postversand">Postversand</option>
+
+                        </select>
+                    </div>
+
+
+
+            </section>
+
+            </fieldset>
+
+
+
+            <button type="submit">Bestell unser Angebot</button>
+
+
+
+
+
+
+    </main>
+
+
+
+    </form>
+
+</body>
+
+</html>
